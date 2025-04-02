@@ -1,6 +1,6 @@
 from flask import Flask, render_template
 
-app = Flask("Code revew")    
+app = Flask("Code review")    
 
 @app.route('/')
 def index():               
